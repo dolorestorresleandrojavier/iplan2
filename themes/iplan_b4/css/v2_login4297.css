@@ -1,0 +1,180 @@
+.gradient_hogar{
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=a31cb5&c2=ff006f&gt=l&gd=dbr
+*/
+/*
+background: #A31CB5;
+background: linear-gradient(315deg, #A31CB5, #FF006F);
+background-image: linear-gradient(    315deg,    hsl(293deg 73% 41%) 0%,    hsl(302deg 75% 40%) 16%,    hsl(310deg 78% 43%) 23%,    hsl(317deg 81% 45%) 29%,    hsl(322deg 85% 47%) 35%,    hsl(327deg 88% 49%) 44%,    hsl(331deg 92% 50%) 60%,    hsl(334deg 100% 50%) 100%  )
+*/
+/* background-color: #FF006E;*/ /* Color magenta similar al de la imagen */
+/*
+background: linear-gradient(315deg, #A31CB5, #FF006F);
+background-image: linear-gradient(    315deg,    hsl(293deg 73% 41%) 0%,    hsl(302deg 75% 40%) 16%,    hsl(310deg 78% 43%) 23%,    hsl(317deg 81% 45%) 29%,    hsl(322deg 85% 47%) 35%,    hsl(327deg 88% 49%) 44%,    hsl(331deg 92% 50%) 60%,    hsl(334deg 100% 50%) 100%  );
+*/ 
+
+
+background: linear-gradient(315deg, #A31CB5, #FF006F);
+background-image: linear-gradient(    315deg,    hsl(293deg 73% 41%) 0%,    hsl(302deg 75% 40%) 16%,    hsl(310deg 78% 43%) 23%,    hsl(317deg 81% 45%) 29%,    hsl(322deg 85% 47%) 35%,    hsl(327deg 88% 49%) 44%,    hsl(331deg 92% 50%) 60%,    hsl(334deg 100% 50%) 100%  );
+
+background-image: url(https://www.iplan.com.ar/themes/iplan_b4/NEW/img/v2_fondoLogin.svg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+ /* background-color: #FF006E; */ /* Color de respaldo mientras carga */
+}
+
+.gradient_empresas {
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=398bff&c2=08ede7&gt=l&gd=dtl
+*/
+background: #398BFF;
+background: linear-gradient(315deg, #08EDE7, #398BFF);
+}
+
+
+.zonaDeClientes2020 {
+    margin-top: 67px;
+}
+
+.login-lv {
+    /* max-width: 533px; */
+    /* margin-inline: auto; */
+    padding: 24px 16px;
+}
+
+
+.container-login-v2 {
+    border-radius: 16px;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 260px;
+    max-width: 400px;
+    margin-inline: auto;
+    
+}
+
+.contenido-columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+}
+
+.link_de_columna {
+    width: 100%;
+}
+
+/* Formulario */
+.flexBox_secondRowContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.flexBox_column80{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.flexBoxIteminColn, .flexBoxIteminColn2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.zona-clients_textfield-help{
+    padding-left: 24px;
+    padding-top: 4px;
+    
+}
+.flexBoxIteminColn_opContraseña{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 24px;
+    margin-bottom: 8px;
+}
+
+.zona-clients_sendBut-modulo{
+    border: none !important;
+    background-color: white !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    display: flex;
+    align-items: start;
+}
+
+.newZDCLabel {
+  padding-left: 12px;
+}
+
+.zona-clients_campos-acceder{
+    height: 44px;
+    border-radius: 8px;
+    /* width: 343px; */
+    border: 1px solid var(--v2_grey);
+   
+  
+    background-color: var(--v2_white);
+    padding: 16px 12px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* text-transform: uppercase; */
+    color: var(--Grey-Medium, #9EAEC7);
+}
+
+.flexBoxIteminCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.horixontalCont{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.help-lv{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   margin-top: 8px;
+  
+}
+
+.help-lvNO{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.zonaDeClientes2020 .hidModal {
+    display: none;
+    padding-left: 24px;
+}
+
+.hidThing {
+    display: none;
+}
+@media (min-width: 992px) {
+    .zonaDeClientes2020 {
+        margin-top: 90px;
+    }
+
+    .container-login-v2 {
+        max-width: 453px;
+        margin-inline: auto;
+    }
+    
+}

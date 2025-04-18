@@ -1,0 +1,2954 @@
+/*  IPLAN TALKS */
+
+/* nav bar */
+.page-node-1077 .selectedBiz {
+  color: #009da5 !important;
+  font-family: "roboto-medium-webfont" !important;
+}
+
+.page-node-1077 .subNav-Liv-container {
+  display: none;
+    flex-direction: row;
+    position: fixed;
+    top: 118px;
+    width: 100%;
+    padding: 12px 0 12px 30px;
+    border-top: 0;
+    z-index: 100;
+    background-color: #fff;
+}
+
+/* BANNERS */
+
+.page-node-1077 .liv_banner_container-2020{
+  margin-top:112px;
+}
+
+.page-node-1077 .liv_banner_conveyor-2020 {
+  display: flex;
+  width: 400%;
+  background-color: #e2e0e0;
+}
+
+.page-node-1077 .liv_banner_right-2020 {
+  padding: 0;
+  height: auto;
+  width: 100%;
+  max-height: 438px;
+  max-width: 640px;
+  background-color: #e2e0e0;
+  flex-basis: 50%;
+}
+
+.page-node-1077 .liv_banner_left-2020 {
+  max-height: 438px;
+  max-width: 639px;
+  width: 100%;
+  background-size: cover;
+  flex-basis: 50%;
+  background-color: #e2e0e0;
+  overflow: hidden;
+}
+
+
+.page-node-1077 .liv_banner_box-2020 {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.page-node-1077 #Talks-banner1 .liv_banner_left-2020 {
+  background-image: url(../images/2021_talks_banner1_left.jpg);
+}
+
+.page-node-1077 .liv_banner_left-2020 img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 500px) {
+  /*
+  .page-node-1077 .liv_banner_box-2020 {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    width: 100vw;
+    max-width: 1280px;
+  }
+
+  .page-node-1077 .liv_banner_container-2020 {
+    height: 130px;
+  }
+
+  .page-node-1077 .liv_banner_controls-2020 {
+    display: flex;
+    position: absolute;
+    top: calc(50% - 30px);
+  }
+
+  .page-node-1077 .liv_banner_right-2020 {
+    height: auto;
+    padding: 0 10px;
+    width: 185px !important;
+    max-height: 127px !important;
+    flex-basis: 45% !important;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .page-node-1077 .liv_banner_left-2020 {
+    height: 127px !important;
+    width: 100vw;
+    width: 127px !important;
+    background-size: cover !important;
+    flex-basis: 100% !important;
+    min-height: 127px;
+    float: unset;
+  }
+
+  .page-node-1077 .liv_banner_left-2020 img {
+    width: 190px;
+  }*/
+
+}
+
+
+/* BANNERS END */
+
+/* acerca de */
+.page-node-1077 .talks_acerca_text_cont-2020 {
+  flex-basis: 50%;
+  color: #8d8e8e !important;
+  font-size: 21px !important;
+  line-height: 24px !important;
+  padding: 0 0 0 40px;
+  text-align: left;
+}
+
+.page-node-1077 .liv_Acerca_container-2020 {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  padding: 0 40px;
+  margin: 50px auto;
+  background-color: #e7e7e7;
+  padding: 20px 20px 0;
+}
+
+.page-node-1077 .talks_acerca_vid_cont-2020 {
+  flex-basis: 50%;
+}
+
+.page-node-1077 .boldme {
+  font-size: 48px;
+  font-weight: 900;
+  color: #E30046;
+  line-height: 49px;
+}
+
+.page-node-1077 .video-container {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  height: auto !important;
+  max-height: unset;
+  margin-bottom: 30px;
+  margin-top: 0px !important;
+}
+
+.page-node-1077 .talks_content_acerca_section-2020 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 0px;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+
+.page-node-1077 div#Talks-acerca_Tit {
+  display: none;
+}
+
+/* acerca de end */
+
+
+/* section containers */
+
+.page-node-1077 .talks_container-2021 {
+  margin-bottom: 80px;
+  /*margin-bottom: 50px;*/
+
+}
+
+.page-node-1077 .liv_title_section-2020 {
+  font-family: "roboto-bold-webfont";
+  color: #de0046;
+  text-align: center;
+  width: 100%;
+}
+
+.page-node-1077 .talks_contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+
+  padding: 20px 20px 35px 20px;
+  background: #e3e0e1;
+
+  /* IE6-9 */
+
+
+}
+
+.page-node-1077 .talks_sub_contenedor {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+}
+
+.page-node-1077 .tc_left-70 {
+  flex-basis: 75%;
+  padding-right: 20px;
+}
+
+.page-node-1077 .tc_right-30 {
+  flex-basis: 25%;
+  border-left: 1px solid #514E4E;
+  padding-left: 20px;
+}
+
+.page-node-1077 .talks_section_title {
+  font-family: 'roboto-medium-webfont';
+  color: #de0046;
+  font-size: 26px;
+  text-align: left;
+  text-align: left;
+  padding-bottom: 25px;
+}
+
+.page-node-1077 .talks_section_subtitle {
+  font-family: 'roboto-medium-webfont';
+  color: #009aa4;
+  font-size: 20px;
+  text-align: left;
+  line-height: 21px;
+}
+
+.page-node-1077 .talks_section_bajada {
+  font-family: 'roboto-medium-webfont';
+  color: #514E4E;
+  font-size: 18px;
+  text-align: left;
+  line-height: 19px;
+
+}
+
+.page-node-1077 .talks_second_rower .talks_section_bajada {
+  padding-right: 60px;
+}
+
+.page-node-1077 .talks_section_text {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  color: #8d8e8e;
+}
+
+.page-node-1077 .talks_entrevistas_textoEncolumnado {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  padding-right: 20px;
+}
+
+
+
+.page-node-1077 .buttonSuscribe {
+  font-family: "roboto-light-webfont";
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #009aa4;
+  border: none;
+  border-radius: 8px;
+  padding: 2px 24px;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px 30px;
+  max-height: 35px;
+}
+
+/* section containers end /*
+
+
+/* section entrevistas */
+.page-node-1077 .talks_rower {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.page-node-1077 .talks_sections_colum_container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0 0 0;
+}
+
+.page-node-1077 .talks_Entrevistas p {
+  margin-bottom: 0;
+}
+
+
+.page-node-1077 .tc-c_65 {
+  display: flex;
+  flex-basis: 65%;
+
+}
+
+.page-node-1077 .tc_left-30 {
+  display: flex;
+  padding: 0 5px 0 5px;
+  flex-basis: 30%;
+  height: 280px;
+}
+
+.page-node-1077 .tc_left-50 {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.page-node-1077 .talks_bordered {
+  border-left: 1px solid #b9b0b0;
+  padding-left: 15px;
+}
+
+.page-node-1077 .talks_iplanYoutube {
+  max-height: 40px;
+  padding-left: 80px;
+}
+
+.page-node-1077 .tc-c_35 {
+  display: flex;
+  flex-basis: 35%;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+}
+
+.page-node-1077 .talks_container_video-strip {
+  display: flex!important;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #e3e0e1;
+  padding: 30px 0;
+}
+
+/* drupal paragraph stuff */
+.page-node-1077 .field.field--name-field-entrevistas-agregar-video.field--type-entity-reference-revisions.field--label-hidden.field__items.quickedit-field {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.page-node-1077 .field.field--name-field-entrevistas-destacado-imag {
+  width: 210px;
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+  border: 10px #fff solid;
+  overflow: hidden;
+  margin: 0 10px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 25%);
+}
+
+.page-node-1077 .entrevistas_column_iconBut {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+}
+
+.page-node-1077 .clearfix.text-formatted.field.field--name-field-entrevistas-destacado-baja.field--type-text-long.field--label-hidden.field__item.quickedit-field {
+  display: none;
+}
+
+.page-node-1077 .node .field--type-image {
+  float: none;
+  margin: 0 0 0;
+}
+
+.page-node-1077 .talks_entrevistas_textoEncolumnado2 p {
+  margin: 0;
+}
+
+.page-node-1077 .field.field--name-field-entrevistas-agregar-video.field--type-entity-reference-revisions.field--label-hidden.field__items {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* drupal paragraph stuff end */
+
+.page-node-1077 .talks_img_entrev_anter img:nth-child(1) {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
+.page-node-1077 .field.field--name-field-entrevistas-agregar-video-.field--type-entity-reference-revisions.field--label-hidden.field__items {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.page-node-1077 .talks_container_video-strip .field__item {
+  /* align-self: stretch; */
+  /* flex-basis: 28%; */
+  width:320px;
+}
+
+.page-node-1077 p.cominSoon {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.page-node-1077 .talks_container_video-strip .talks_section_bajada {
+  max-width: 278px;
+    height: 70px;
+    margin: auto;
+    font-size: 17px;
+    line-height: 16px;
+}
+
+.page-node-1077 .field--type-image img,
+.page-node-1077 .field--name-field-user-picture img {
+  margin: 0;
+}
+
+.page-node-1077 .talks_container_video-strip .field__item {
+  /*  align-self: stretch;*/
+}
+
+
+.page-node-1077 .talks_videoStrip_clearfix {
+  clear: both;
+  position: relative;
+  height: 161px;
+}
+
+.page-node-1077 .talks_cita {
+  font-family: 'roboto-light-webfont';
+  font-style: italic;
+  font-size: 18px;
+}
+
+.page-node-1077 .talks_autor {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'roboto-medium-webfont';
+  line-height: 15px;
+  margin: 20px 0;
+}
+
+.page-node-1077 .blueIt {
+  color: #009aa4;
+}
+
+.page-node-1077 .YT-id {
+  display: none;
+}
+
+.page-node-1077 .talks_section_imagen {
+   display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 0 0px;
+    justify-content: left;
+    max-width: 230px;
+    flex-basis: 17%;
+}
+
+.page-node-1077 .talks_section_imagen img {
+  width: 100%;
+  height: auto;
+}
+
+.page-node-1077 .talks_player_underlay {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
+.page-node-1077 .talks_player_overlay {
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.page-node-1077 .long-centered {
+  width: 100%;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.page-node-1077 .upperspaced {
+  margin-top: 30px
+}
+
+.page-node-1077 .talks_videoPlayer .talks_section_subtitle {
+  margin: 0 0 5px;
+}
+
+.page-node-1077 .talks_img_entrev_anter {
+  padding: 0;
+    max-width: 278px;
+    FONT-WEIGHT: 200;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.page-node-1077 .paragraph.paragraph--type--video-iplan-talks.paragraph--view-mode--default {
+  display: flex;
+  justify-content: center;
+}
+
+
+.page-node-1077 .talks_iplanYoutube {
+  cursor: pointer;
+}
+
+/* section entrevistas end */
+
+
+/* section Webinars */
+
+.page-node-1077 .talks_section_bigImage {}
+
+/* drupal paragraph stuff */
+
+.page-node-1077 .field.field--name-field-webinars-destacado-imgbig.field--type-image.field--label-hidden.field__item.quickedit-field {
+  display: none;
+  flex-basis: 100%;
+  width: 100%;
+  margin: 0;
+  float: none;
+}
+
+.page-node-1077 .field.field--name-field-webinars-agregar-video.field--type-entity-reference-revisions.field--label-hidden.field__items.quickedit-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.page-node-1077 .talks_Webinars .field.field--name-field-webinars-agregar-video p {
+  margin: 0;
+}
+
+.page-node-1077 .talks_Webinars .talks_container_video-strip .field__item {
+  display: flex;
+  flex-basis: 28%;
+}
+
+.page-node-1077 .field.field--name-field-podcasts-agregar-podcast.field--type-entity-reference-revisions.field--label-hidden.field__items.quickedit-field {
+  display: flex;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.page-node-1077 .field.field--name-field-titulo-del-podcast {
+    height: 50px;
+    display: none;
+}
+
+.page-node-1077 .field.field--name-field-webinars-agregar-video.field--type-entity-reference-revisions.field--label-hidden.field__items {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* drupal paragraph stuff end */
+
+.page-node-1077 .talks_second_rower {
+  justify-content: space-between;
+}
+
+
+.page-node-1077 .right-aligned {
+  justify-content: end;
+  text-align: right;
+}
+
+.page-node-1077 .talks_lil50Webinar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.page-node-1077 .talks_sub_contenedor.tc_left-25 {
+  display: flex;
+  flex-basis: 23%;
+  justify-content: flex-end;
+  height: auto;
+  padding: 0 40px;
+}
+
+.page-node-1077 .talks_entrevistas_textoEncolumnado2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 35%;
+}
+
+.page-node-1077 .talks_Webinarsp {
+  margin-bottom: 0;
+}
+
+
+
+
+.page-node-1077 .talks_webinar_speaker {
+  display: flex;
+  flex-direction: row;
+  min-width: 220px;
+  flex-basis: 25%;
+}
+
+.page-node-1077 .talks_speaker_frmed_img {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+  border: 10px #fff solid;
+  overflow: hidden;
+  margin: 0 10px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 25%);
+}
+
+.page-node-1077 .talks_speaker_frmed_img img {
+  width: 100%;
+  height: auto;
+}
+
+.page-node-1077 .talks_speaker_name_holder {
+  line-height: 16px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-node-1077 .talks_speaker_name {
+
+  color: #009aa4;
+  font-size: :15px;
+}
+
+.page-node-1077 .talks_speaker_position {
+
+  color: #8d8e8e;
+  font-size: :15px;
+}
+
+.page-node-1077 .talks_suscription_tools {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+}
+
+.page-node-1077 .talks_date_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.page-node-1077 .talks_date_row_compound_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: flex-end;
+  padding: 10px 0;
+  text-align: right;
+}
+
+.page-node-1077 .talks_item_icon {}
+
+.page-node-1077 .talks_item_text {
+  color: #8f9090;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  flex-direction: row;
+  padding: 0 5px;
+  min-width: 110px;
+}
+
+.page-node-1077 .reduced_item {
+  min-width: unset;
+}
+
+.page-node-1077 .tlaks_low_margin {
+  margin: 10px;
+}
+
+
+
+
+/* section Webinars end */
+
+
+/* section Podcasts */
+
+.page-node-1077 .talks_no_margin {
+  margin: 0px;
+}
+
+.page-node-1077 .talks_podcast_agendar_button {
+  text-align: left;
+  padding-top: 0px;
+  margin-top: -8px;
+}
+
+
+.page-node-1077 .talks_section_podcast {
+  flex-basis: 40%;
+  flex-direction: column;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  min-width: 450px;
+}
+
+.page-node-1077 .Small__Component-sc-5y32hs-1.IuNis {
+  border-radius: 15px;
+  box-shadow: 2px 2px 6px 2px rgb(0 0 0 / 20%);
+}
+
+.page-node-1077 .talks_Podcasts {
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 50%, #e7e7e7 100%);
+  background: -webkit-linear-gradient(top, #ffffff 50%, #e7e7e7 100%);
+  background: linear-gradient(to bottom, #ffffff 50%, #e7e7e7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e7e7e7', GradientType=0);
+}
+
+/* drupal paragraph stuff */
+.page-node-1077 .field.field--name-field-podcasts-agregar-podcast.field--type-entity-reference-revisions.field--label-hidden.field__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-node-1077 button#PodcastAgendar {
+  margin: 0;
+}
+
+.page-node-1077 .podcastsRow{
+  display: flex;
+}
+.page-node-1077 .talks_left_column_podcast{
+  display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    padding: 0 70px;
+}
+
+.page-node-1077 .talks_left_column_podcast_logo{
+
+}
+
+.page-node-1077 .eluunderline{
+
+}
+
+.page-node-1077 .talks_left_column_podcast_text {
+    padding: 30px 0px 30px 10px;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.page-node-1077 .talks_left_column_podcast_visita img {
+    width: 100%;
+    height: auto;
+}
+
+.page-node-1077 .MCSportif{
+  display: flex;
+  flex-direction:column;
+  flex-basis: 40%;
+}
+
+.page-node-1077 .podcastsRow{
+  display: flex;
+  flex-direction: row;
+}
+/* REPRO */
+
+.page-node-1077 .field--name-field-id-del-podcast-en-spotify {
+  display: none;
+}
+
+.page-node-1077 .field--name-field-podcasts-destacados-id-de- {
+  display: none;
+}
+
+.page-node-1077 .podcast_contenedor .talks_rower {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/* REPRO END */
+
+/* section Podcasts end */
+
+
+/* form */
+
+.page-node-1077 .contactoTalksContainer {
+  background-color: #dedfd8;
+  display: flex;
+  flex-flow: row;
+  align-items: flex-end;
+  margin-top: 110px;
+  padding-bottom: 50px;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.page-node-1077 .talks_title-form {
+  font-size: 26px;
+  color: #009aa4;
+  margin-bottom: 10px;
+  margin-left: 14px;
+}
+
+.page-node-1077 button#edit-actions-submit {
+  background-color: #009aa4 !important;
+}
+
+.page-node-1077 form#webform-submission-talks-webform-node-1077-add-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.page-node-1077 textarea.form-control {
+  height: auto;
+  width: 820px;
+  flex-basis: 100% !important;
+}
+
+.page-node-1077 .form-item-captcha-response span {
+  display: inline-flex;
+}
+
+.page-node-1077 .captcha {
+  flex-basis: 50%;
+}
+
+.page-node-1077 .form-check-label label.js-form-required.form-required {
+  font-size: 11px;
+}
+
+.page-node-1077 .talks_Podcasts .talks_container_video-strip {
+  display: none;
+}
+
+
+
+/************************************************************/
+/**************** C A M B I O S   20 / 04  ******************/
+/************************************************************/
+
+
+.page-node-1077 .buttonSuscribe {
+  background-color: #808080;
+}
+
+.page-node-1077 .talks_section_subtitle {
+  color: #e42746;
+}
+
+.page-node-1077 .talks_speaker_name {
+  color: #514e4e;
+}
+
+.page-node-1077 .talks_section_subtitle {
+  color: #e42746;
+    margin: 0 0 10px;
+    max-width: 378px;
+    font-size: 18px;
+    letter-spacing: -0.25px;
+    line-height: 17px;
+}
+
+.page-node-1077 .talks_title-form {
+  color: #514e4e;
+}
+
+.page-node-1077 button#edit-actions-submit {
+  background-color: #e42746 !important;
+}
+
+.page-node-1077 .talks_content_saubidet-2020 {
+  background-color: #e7e7e7;
+  padding: 20px 20px 0;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  display: none;
+}
+
+@media (max-width: 1025px) {
+  .page-node-1077 .talks_content_saubidet-2020 {
+    flex-direction: column;
+  }
+}
+
+.page-node-1077 #btnSau {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+
+
+/* POPUP */
+.page-node-1077 .ui-widget-overlay {
+    background: #000;
+    opacity: 0.7;
+    z-index: 850!important;
+}
+
+.page-node-1077 .ui-dialog {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 0;
+    z-index: 860!important;
+}
+
+/************************************************************/
+/************** C A M B I O S   20 / 04  END ****************/
+/************************************************************/
+
+
+
+.page-node-1077 div#Talks-entrevista_Tit {
+    background-image: url(../images/talks_titler_back.png);
+    background-repeat: no-repeat;
+    font-family: "roboto-regular-webfont";
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 4px;
+    width: 100%;
+    height: 40px;
+    padding-left: 270px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 2px solid #3a3c42;
+}
+
+.page-node-1077 div#Talks-entrevista_Tit:before {
+    position: absolute;
+    background: linear-gradient(to right, #e3e0e1 172px, #3a3c42 50px);
+    height: 2px;
+    content: '';
+    bottom: 0;
+    margin-bottom: -2px;
+    right: 0;
+    left: 0;
+}
+
+/**/
+
+.page-node-1077 .row {
+    width: 100%;
+    justify-content: center;
+        position: relative;
+}
+
+.page-node-1077 button#bt-left2 {
+    position: relative;
+}
+
+.page-node-1077 button#bt-right2 {
+    position: relative;
+}
+
+.page-node-1077 button#bt-left2:focus, .btn:focus {
+    outline: none 0;
+    box-shadow: inset 0 0px 0px rgb(0 0 0 / 0%), 0 0 8px rgb(255 255 255 / 0%);
+    color: #e7e7e7;
+}
+
+
+.page-node-1077 button#bt-left1:focus, .btn:focus {
+    outline: none 0;
+    box-shadow: inset 0 0px 0px rgb(0 0 0 / 0%), 0 0 8px rgb(255 255 255 / 0%);
+    color: #e7e7e7;
+}
+
+.page-node-1077 button#bt-right1:focus, .btn:focus {
+    outline: none 0;
+    box-shadow: inset 0 0px 0px rgb(0 0 0 / 0%), 0 0 8px rgb(255 255 255 / 0%);
+    color: #e7e7e7;
+}
+
+.page-node-1077 button#bt-right2:focus, .btn:focus {
+    outline: none 0;
+    box-shadow: inset 0 0px 0px rgb(0 0 0 / 0%), 0 0 8px rgb(255 255 255 / 0%);
+    color: #e7e7e7;
+}
+
+.page-node-1077 .podcast_contenedor .talks_rower {
+    display: none;
+  }
+
+.page-node-1077 .field--name-field-podcasts-agregar-podcast .field__item{
+  width:auto;
+}
+/**/
+
+
+/* multicarrousel */
+
+.page-node-1077 .MultiCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 0px;
+  width: 100%;
+  position: relative;
+  max-width: 960px;
+}
+
+.page-node-1077 .MultiCarousel .MultiCarousel-inner {
+  transition: 0.25s ease-out all;
+  float: left;
+}
+
+.page-node-1077 .MultiCarousel .MultiCarousel-inner .item {
+
+  float: left;
+    width: auto;
+    max-width: 320px;
+}
+
+.page-node-1077 .MultiCarousel .MultiCarousel-inner .item>div {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  /*  background: #f1f1f1;*/
+  color: #666;
+  height: 280px;
+}
+
+.page-node-1077 .MultiCarousel .MultiCarousel-inner .item>div:nth-child(1) {
+  /*  background: #ffffff;*/
+}
+
+.page-node-1077 .MultiCarousel .MultiCarousel-inner .item>div:nth-child(0) {
+  /*  background: #f1f1f1;*/
+}
+
+
+.page-node-1077 .MultiCarousel .leftLst,
+.page-node-1077 .MultiCarousel .rightLst {
+  position: absolute;
+  border-radius: 50%;
+  top: calc(50% - 20px);
+}
+
+.page-node-1077 .MultiCarousel .leftLst {
+  left: 0;
+  opacity: 0.5;
+  /* display: none; */
+}
+
+.page-node-1077 .MultiCarousel .leftLst:hover {
+  left: 0;
+  opacity: 1;
+  /* display: none; */
+}
+
+.page-node-1077 .MultiCarousel .rightLst {
+  right: 0;
+  opacity: 0.5;
+  /* display: none; */
+}
+
+.page-node-1077 .MultiCarousel .rightLst:hover {
+  right: 0;
+  opacity: 1;
+  /* display: none; */
+}
+
+.page-node-1077 .MultiCarousel .leftLst.over,
+.page-node-1077 .MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background: #ccc;
+}
+
+.page-node-1077 .btn-primary {
+  background-color: #fff0 !important;
+  border-color: #fff0 !important;
+  color: #514E4E;
+  font-family: 'roboto-medium-webfont';
+  font-size: 14px;
+}
+
+.page-node-1077 .btn-primary:hover,
+.page-node-1077 .btn-primary:focus {
+  background-color: #fff0 !important;
+}
+
+.page-node-1077 .video-multi {
+  transition: 1s ease all;
+  float: initial;
+  display: flex;
+  justify-content: center;
+}
+
+
+.page-node-1077 .none {
+  display: none;
+}
+
+/* multicarrousel end */
+
+/* Podcasts */
+.talks_left_column_podcast_visita{
+    cursor: pointer;
+}
+
+
+/*  IPLAN TALKS END */
+
+
+
+
+
+/* 1400 */
+@media (max-width: 1400px) {
+
+  .page-node-1077 .liv_banner_container-2020 {
+    display: flex;
+    flex-direction: row;
+    max-height: 438px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1260px) {
+
+  .page-node-1077 .liv_banner_container-2020 {
+    display: flex;
+    flex-direction: row;
+    max-height: 438px;
+    height: 360px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .page-node-1077 .liv_banner_container-2020 {
+    display: flex;
+    flex-direction: row;
+    max-height: 438px;
+    height: 320px;
+    /* 1024 */
+  }
+}
+
+
+
+@media (max-width: 900px) {
+  .page-node-1077 .liv_banner_container-2020 {
+    height: 250px;
+  }
+}
+
+/*
+  ********   _***_   *********
+        *   *               *
+      *    * ****_        *
+    *      *      *     *
+   #        ******     #
+
+*/
+
+@media (max-width: 767px) {
+
+  .page-node-1077 .video-container {
+    width: calc(100% - 0px);
+    margin: auto;
+    padding: 0 0px 5px;
+
+  }
+
+  .page-node-1077 .talks_acerca_text_cont-2020 {
+    flex-basis: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .page-node-1077 .talks_sections_colum_container {
+    flex-direction: column;
+    /*padding: 20px ;*/
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
+
+  .page-node-1077 .talks_section_imagen {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .page-node-1077 .talks_section_title {
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .page-node-1077 .talks_section_subtitle {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .page-node-1077 .talks_section_bajada {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .page-node-1077 .talks_bordered {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .page-node-1077 .talks_rower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-node-1077 .talks_iplanYoutube {
+    max-height: 40px;
+    padding: 30px 0px;
+  }
+
+  .page-node-1077 .tc_left-30 {
+    display: flex;
+    padding: 0 0px 0 0px;
+    flex-basis: 100%;
+    max-width: 320px;
+  }
+
+  .page-node-1077 .talks_container_video-strip {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+
+  .page-node-1077 .MultiCarousel .MultiCarousel-inner .item {
+    float: left !important;
+    width: 100vw !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .page-node-1077 #MultiCarousel1 {
+    transition: 1s ease all;
+    float: left !important;
+    display: flex !important;
+    justify-content: center;
+    width: 100vw;
+  }
+
+
+  .page-node-1077 #MultiCarousel2 {
+    transition: 1s ease all;
+    float: inherit !important;
+    display: flex !important;
+    justify-content: initial;
+    width: 100vw;
+  }
+
+  .page-node-1077 #MultiCarousel3 {
+    transition: 1s ease all;
+    float: left !important;
+    display: flex !important;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .podcast_contenedor .talks_rower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-node-1077 #MultiCarousel2 .leftLst {
+    display: inline !important;
+  }
+  .page-node-1077 #MultiCarousel2 .rightLst {
+    display: inline !important;
+  }
+
+  .page-node-1077 .talks_left_column_podcast_logo img {
+    width: 100%;
+    max-width:300px;
+    height: auto;
+  }
+}
+
+
+
+/*
+
+              .sss.
+              $P'`T.
+              $;  :;
+              $;  :$
+      __......$b__d$
+   .sd$$$P^^^^^^^TBuG$s.
+  .$P'      ___     _`T$.
+  $P        """    (_) T$
+ s$   _..---***---.._   $s
+ $$ .'    ALCATEL    `. $$
+.$$.  .-------------.  .$$.
+:$$: :               ; ;$$;
+$$;| |               | |:$$
+$$'| |               | |'$$
+$$ | |               | | $$
+$$ | |               | | $$
+$$ | :               ; | $$
+$$.;  `-------------'  :.$$
+$$; . (C)   .-.       . :$$
+:$$  `-.   / _ \   .-'  $$;
+'$$  .-.`.: (_) ;.'.-.  $$'
+ $$ :   ; `.___.' :   ; $$
+ $$  `-'           `-'  $$
+ $$.( 1 )  ( 2 )  ( 3 ).$$
+ $$;                   :$$
+ :$$ ( 4 ).( 5 ).( 6 ) $$;
+ '$$                   $$'
+  $$ ( 7 ) ( 8 ) ( 9 ) $$
+  $$                   $$
+  $$ ( * ) ( 0 ) ( # ) $$
+  $$.                 .$$
+  $$; o               :$P
+   T$b.             .d$P
+    `^T$$$$$$$$$$$$$P^'
+*/
+
+
+
+@media (max-width: 800px) {
+
+  .page-node-1077 .subNav-Liv-container {
+    top: 92px;
+  }
+  .page-node-1077 .contactoLivForm {
+    flex-basis: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .page-node-1077 .tc_right-30 {
+    flex-basis: 100%;
+    border-left: 0;
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+
+  .page-node-1077 .talks_section_bigImage {
+    width: 100%;
+    max-width: 90vw;
+  }
+
+  .page-node-1077 .talks_section_bigImage img {
+    width: 100%;
+    height: auto;
+  }
+
+  .page-node-1077 .tc_left-50 {
+    flex-direction: column;
+  }
+
+  .page-node-1077 .talks_sub_contenedor.tc_left-25 {
+    padding: 0 30px;
+  }
+
+
+  .page-node-1077 .talks_section_text {
+    text-align: center;
+  }
+
+  .page-node-1077 .talks_section_imagen {
+    padding: 0px 0px 20px 0;
+  }
+
+  .page-node-1077 .talks_webinar_speaker {
+    display: flex;
+    flex-direction: row;
+    min-width: 220px;
+    flex-basis: 25%;
+    justify-content: center;
+    margin: 20px auto;
+  }
+
+  .page-node-1077 .talks_speaker_name_holder {
+    line-height: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .page-node-1077 .talks_podcast_agendar_button {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  /* REPRO */
+  .page-node-1077 .talks_section_podcast {
+    flex-basis: 100%;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    min-width: 310px;
+    min-height: 210px;
+  }
+
+  .page-node-1077 .talks_section_podcast iframe {
+    min-height: 210px;
+  }
+
+  .page-node-1077 .talks_second_rower .talks_section_bajada {
+    adding-right: 0px!important;
+    text-align: center;
+  }
+  .page-node-1077   .MultiCarousel .MultiCarousel-inner .item {
+    float: none !important;
+    width: 100vw !important;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column;
+  }
+
+  .page-node-1077 .tc_left-30 {
+    display: flex;
+    padding: 0 5px 0 5px;
+    flex-basis: 100%;
+    height: auto;
+  }
+
+  .page-node-1077 #MultiCarousel1 {
+    transition: 1s ease all;
+    float: left !important;
+    display: flex !important;
+    justify-content: start;
+    width: 100vw;
+  }
+
+  .page-node-1077 button#bt-left1 {
+      position: absolute;
+      left:0;
+          top: 160px;
+          z-index: 50;
+            display:flex!important;
+  }
+
+  .page-node-1077 button#bt-right1 {
+      position: absolute;
+      right:0;
+          top: 160px;
+          z-index: 50;
+          display:flex!important;
+  }
+
+  .page-node-1077 button#bt-left2 {
+      position: absolute;
+      left:0;
+          top: 70px;
+          z-index: 50;
+  }
+
+  .page-node-1077 button#bt-right2 {
+      position: absolute;
+      right:0;
+          top: 70px;
+          z-index: 50;
+  }
+
+
+  .page-node-1077 button #bt-left2:focus {
+      outline: 0 !important;
+  }
+
+  .page-node-1077 button #bt-right2:focus {
+      outline: 0 !important;
+  }
+
+  /* podcast mobile */
+  .page-node-1077 .field.field--name-field-podcasts-agregar-podcast.field--type-entity-reference-revisions.field--label-hidden.field__items.quickedit-field {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    padding: 0 5%;
+    /* margin: auto; */
+  }
+
+  .page-node-1077 .field.field--name-field-entrevistas-destacado-titu {
+      margin: 10px;
+  }
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 960px) {
+
+  /* styles for browsers larger than 960px; */
+  .page-node-1077 .none1 {
+    display: none;
+  }
+
+  .page-node-1077 .none2 {
+    display: none;
+  }
+
+  .page-node-1077 .none3 {
+    display: none;
+  }
+
+  .page-node-1077 .MultiCarousel {
+    text-align: center;
+    left: 0;
+    right: 0;
+    display: grid;
+  }
+}
+
+.page-node-1077 #MultiCarousel2 .leftLst {
+  display: inline;
+}
+
+
+/* NEW OVERRIDES */
+.page-node-1077 .talks_sections_colum_container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0 0 0;
+    position: relative;
+    clear: both;
+}
+
+.page-node-1077 .tc_left-30 {
+    display: flex;
+    padding: 0 5px 0 5px;
+    flex-basis: 30%;
+    height: 180px;
+    position: relative;
+}
+
+.page-node-1077 .tc_left-30 {
+    display: flex;
+    padding: 0 5px 0 5px;
+    flex-basis: 100%;
+    height: 180px;
+    position: relative;
+    width: 280px;
+}
+
+.page-node-1077 .talks_img_entrev_anter img:nth-child(1) {
+  position: absolute;
+  left: -18px;
+  z-index: 1;
+  width: 113%;
+  height: auto;
+  opacity: 1;
+}
+
+
+.page-node-1077 .talks_img_entrev_anter {
+    padding: 0;
+    max-width: 278px;
+    FONT-WEIGHT: 200;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #6d6666;
+    background-image: url(../images/yutbPlayTalks.png);
+    background-repeat: no-repeat;
+    background-position-y: 90%;
+    background-position-x: 94%;
+        box-shadow: 1px 1px 2px #b3b3b3;
+}
+
+
+.page-node-1077 .talks_Webinars .talks_container_video-strip .field__item {
+    display: flex;
+    flex-basis: 28%;
+    width: auto;
+}
+
+
+.page-node-1077 .MultiCarousel .MultiCarousel-inner .item>div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    /* background: #f1f1f1; */
+    color: #666;
+    height: 180px;
+}
+
+.page-node-1077 #MultiCarousel2 .talks_section_subtitle {
+    display: none;
+}
+
+.page-node-1077 #MultiCarousel2 .talks_section_bajada {
+    position: absolute;
+    height: auto;
+    color: #fff;
+    z-index: 3;
+    display: none; /* block*/
+    width: 80%;
+    max-width: 260px;
+    top: 35%;
+    margin: 0 20px;
+}
+
+.page-node-1077 .talks_player_overlay {
+    display: none;
+}
+
+.page-node-1077 .talks_speaker_frmed_img {
+    max-width: 140px;
+    max-height: 140px;
+    height: 140px;
+    width: 150px;
+    border-radius: 0;
+    border: 0;
+    overflow: visible;
+    margin: 0 10px 0 0;
+    box-shadow: none;
+}
+
+.page-node-1077 .talks_Webinars .talks_contenedor{
+  display: none;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0px 0px 0px;
+    background: #e3e0e1;
+    background: rgb(227,224,225);
+    background: -moz-linear-gradient(180deg, rgba(227,224,225,1) 38%, rgba(200,195,196,1) 100%);
+    background: -webkit-linear-gradient(180deg , rgba(227,224,225,1) 38%, rgba(200,195,196,1) 100%);
+    background: linear-gradient(180deg, rgba(227,224,225,1) 38%, rgba(200,195,196,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3e0e1",endColorstr="#c8c3c4",GradientType=1);
+
+}
+
+.page-node-1077 .node .field--type-image {
+    float: none;
+    margin: 0 0 0;
+    width: 140px;
+    height: 140px;
+}
+
+.page-node-1077 .talks_speaker_name_holder {
+    line-height: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.page-node-1077 .talks_section_subtitle {
+  color: #514e4e;
+  margin: 0 0 10px;
+  max-width: 378px;
+  font-size: 22px;
+  letter-spacing: 0px;
+  display: flex;
+  align-items: center;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+.page-node-1077 .talks_webinar_speaker {
+    display: flex;
+    flex-direction: row;
+    min-width: 320px;
+    flex-basis: 30%;
+}
+
+.page-node-1077 .talks_speaker_position {
+    display: none;
+  }
+
+  .page-node-1077 .talks_speaker_name {
+    color: #514e4e;
+    display: none;
+}
+
+.page-node-1077 .talks_speaker_position {
+    display: none;
+}
+
+.page-node-1077 .talks_section_bajada {
+    font-family: 'roboto-regular-webfont';
+    color: #514E4E;
+    font-size: 17px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.page-node-1077 .talks_suscription_tools {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    padding: 0 30px 0 20px;
+}
+
+.page-node-1077 .talks_item_text {
+    color: #514e4e;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    flex-direction: row;
+    padding: 0 5px;
+    min-width: 110px;
+}
+
+.page-node-1077 .talks_second_rower .talks_section_bajada {
+    padding-right: 20px;
+}
+
+.page-node-1077 .talks_entrevistas_textoEncolumnado2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+
+.page-node-1077 #strip-entrevistas .talks_img_entrev_anter img:nth-child(1) {
+  position: relative;
+  z-index: 1;
+  width: auto;
+  height: 100%;
+  opacity: 1;
+  margin-left: 20%;
+}
+.page-node-1077 #strip-entrevistas:nth-child(1) .talks_img_entrev_anter img{
+  /*position: absolute;
+  left: 0% !important;*/
+  z-index: 1;
+  width: auto;
+  height: 100%;
+  opacity: 1;
+}
+
+
+
+/* entrev new */
+
+.page-node-1077 #anchorEntrevistas {
+    margin-bottom: 80px;
+    /* margin-bottom: 50px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.page-node-1077 #anchorEntrevistas div#Talks-entrevista_Tit {
+    background-image: url(../images/talks_titler_back.png);
+    background-repeat: no-repeat;
+    font-family: "roboto-regular-webfont";
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 4px;
+    width: 100%;
+    height: 40px;
+    padding-left: 270px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 2px solid #3a3c42;
+    flex-basis: 100%;
+}
+
+.page-node-1077 #anchorEntrevistas .talks_contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    /* flex-wrap: wrap; */
+    padding: 20px 20px 35px 20px;
+    background: #e3e0e1;
+    flex-basis: 35%;
+    position: relative;
+    width:35%;
+}
+
+.page-node-1077 #anchorEntrevistas .talks_rower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin: 0 50px;
+  text-align: center;
+  background-color: #e7e7e7;
+  box-shadow: 0px 0px 7px 2px #79797947;
+  border-radius: 8px;
+  position: relative;
+}
+
+.page-node-1077 #anchorEntrevistas .talks_container_video-strip {
+    display: flex!important;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e3e0e1;
+    padding: 30px 0;
+    flex-basis: 65%;
+}
+
+.page-node-1077 #anchorEntrevistas .field.field--name-field-entrevistas-agregar-video-.field--type-entity-reference-revisions.field--label-hidden.field__items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 620px;
+    width: auto;
+}
+
+.page-node-1077 #anchorEntrevistas .columnaNewOnes{
+  border-right: 2px solid #b1b1b1;
+}
+
+.page-node-1077 #anchorEntrevistas .row-entrev-cont {
+    display: flex;
+}
+
+.page-node-1077 #anchorEntrevistas .row-entrev-cont .MultiCarousel .MultiCarousel-inner {
+    transition: 0.25s ease-out all;
+    float: none;
+    height: 580px;
+}
+
+.page-node-1077 #anchorEntrevistas .row-entrev-cont .talks_img_entrev_anter {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .page-node-1077 #anchorEntrevistas .row-entrev-cont  .MultiCarousel .MultiCarousel-inner .item>div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    /* background: #f1f1f1; */
+    color: #666;
+    height: 180px;
+    display: flex;
+    width: 650px;
+}
+
+
+.page-node-1077 #anchorEntrevistas .row-entrev-cont .MultiCarousel .MultiCarousel-inner .item {
+    float: none;
+    width: 100%;
+    max-width: unset;
+}
+
+.page-node-1077 #anchorEntrevistas .row-entrev-cont .talks_container_video-strip .field__item {
+    /* align-self: stretch; */
+    /* flex-basis: 28%; */
+    max-width: 640px;
+    width:100%;
+}
+
+.page-node-1077 #anchorEntrevistas .row-entrev-cont .talks_sub_contenedor.tc_left-30.talks_videoPlayer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+      border-bottom: 1px solid #b3b3b3;
+}
+
+.page-node-1077 #anchorEntrevistas .talks_container_video-strip .field__item {
+    width: auto;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.page-node-1077 #anchorEntrevistas .talks_videoPlayer .talks_section_subtitle {
+    margin: 0 0 5px;
+    order: 2;
+    width: 400px;
+}
+
+.page-node-1077 #anchorEntrevistas .talks_container_video-strip .talks_section_bajada {
+    max-width: unset;
+    height: 70px;
+    margin: 20px 0;
+    font-size: 17px;
+    line-height: 16px;
+    order: 3;
+}
+
+.page-node-1077 #anchorEntrevistas .talks_sections_colum_container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0 0 0;
+    position: relative;
+    clear: both;
+    order: 1;
+    width: 180px;
+}
+
+.page-node-1077 #anchorEntrevistas .talks_section_subtitle {
+    color: #514e4e;
+    margin: 10px 0 10px;
+    max-width: 400px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.page-node-1077 #anchorEntrevistas .talks_container_video-strip .talks_section_bajada {
+    max-width: 400px;
+    height: 70px;
+    margin: 20px 0;
+    font-size: 25px;
+    line-height: 25px;
+    order: 3;
+}
+
+
+.page-node-1077 #anchorEntrevistas .talks_item_text {
+    color: #514e4e;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    flex-direction: row;
+    padding: 0 5px;
+     min-width: unset!important;
+}
+
+
+.page-node-1077 #anchorEntrevistas .talks_section_imagen {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 0 0px;
+    justify-content: center;
+    max-width: 230px;
+    flex-basis: unset;
+}
+
+
+.page-node-1077 #anchorEntrevistas .field.field--name-field-entrevistas-destacado-imag {
+    width: 210px;
+    max-width: 140px;
+    max-height: 140px;
+    border-radius: 50%;
+    border: 0!important;
+    overflow: hidden;
+    margin: 0 10px;
+    box-shadow: unset;
+}
+
+.page-node-1077 #anchorEntrevistas .node .field--type-image {
+    float: none;
+    margin: 0 0 20px;
+    width: 160px;
+    height: 160px;
+}
+
+.page-node-1077 #anchorEntrevistas .talks_section_imagen img {
+    width: auto;
+    height: 100%;
+}
+
+.page-node-1077 #anchorEntrevistas .clearfix.text-formatted.field.field--name-field-entrevistas-destacado-nomb.field--type-text.field--label-hidden.field__item.quickedit-field {
+    text-align: center;
+    /*text-decoration: underline;*/
+    /* padding-bottom: 2px; */
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: 'roboto-regular-webfont';
+    text-underline-offset: 3px;
+    line-height: 24px;
+}
+
+.page-node-1077 #anchorEntrevistas .field--name-field-entrevistas-destacado-titu {
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    font-size: 22px;
+    width: 100%;
+}
+
+.page-node-1077 #anchorEntrevistas .talks_section_bajada{
+  text-align: center;
+    margin: auto;
+    max-width: unset;
+    width: 100%;
+}
+
+.page-node-1077 .talks_entrevistas_textoEncolumnado {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    padding-right: 0;
+}
+
+.page-node-1077 button#EntrevistaAgendar {
+  margin: 0;
+  width: 100%;
+  max-width: unset;
+  border-radius: 0;
+  position: absolute;
+  bottom: 0;
+  padding: 24px 0;
+  line-height: 0px;
+  font-size: 17px;
+  height: 40px;
+}
+
+.page-node-1077 #EntrevistaAgendar .clearfix.text-formatted.field.field--name-field-titulo-del-video.field--type-text.field--label-hidden.field__item {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+
+.page-node-1077 .vertSepaTalks{
+
+  width: 2px;
+    border-right: 1px solid #b3b3b3;
+    height: 588px;
+    position: absolute;
+    left: 90%;
+
+}
+
+.page-node-1077 #banner_handle-l {
+    display: none!important;
+}
+
+.page-node-1077 #banner_handle-r {
+    display: none!important;
+}
+
+.page-node-1077 .liv_Acerca_container-2020 {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    padding: 0 40px;
+    margin: 50px auto;
+    background-color: #e7e7e7;
+    padding: 20px 20px;
+    display: flex;
+}
+
+.page-node-1077 #anchorAcerca .liv_banner_controls-2020 {
+  display: flex;
+  position: absolute;
+  left: 6%;
+  top: calc( 50% - 27px);
+  width: 88%;
+  justify-content: space-between;
+  padding: 0 8px;
+  z-index:4;
+}
+
+.page-node-1077 .liv_Acerca_container-2020 {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    padding: 0 40px;
+    margin: 20px auto 60px;
+    /* background-color: #e7e7e7; */
+    padding: 20px 20px;
+    display: flex;
+    overflow: hidden;
+    background: #c8003d;
+    /*background: -moz-linear-gradient(top, #e20046 0%, #c7003d 99%);
+    background: -webkit-linear-gradient(top, #e20046 0%,#c7003d 99%);
+    background: linear-gradient(to bottom, #e20046 0%,#c7003d 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e20046', endColorstr='#c7003d',GradientType=0 );*/
+    position: relative;
+}
+
+.page-node-1077 div#BannerContainer22 {
+      width: 9923px;
+      height: 316px;
+      position: absolute;
+      top: calc( 50% - 158px);
+      left:0;
+      margin: auto;
+      display: flex;
+    justify-content: flex-start;
+    padding-left: 176px;
+}
+
+.page-node-1077 .liv_banner_box-2020b {
+  position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    max-width: 923px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.page-node-1077 img#im12 {
+    cursor: pointer;
+}
+
+.page-node-1077 .liv_banner_box-2020b img {
+    border-radius: 30px;
+    overflow: hidden;
+    /* box-shadow: 0px 1px 2px; */
+}
+
+.page-node-1077 .redFader{
+  height: 100%;
+  width: 170px;
+  z-index: 2;
+  position: absolute;
+  background: rgb(200,0,61);
+  /*background: -moz-linear-gradient(90deg, rgba(200,0,61,1) 20%, rgba(200,0,61,0) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(200,0,61,1) 20%, rgba(200,0,61,0) 100%);
+  background: linear-gradient(90deg, rgba(200,0,61,1) 20%, rgba(200,0,61,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c8003d",endColorstr="#c8003d",GradientType=1);*/
+
+}
+
+.page-node-1077  div#rfLeft {
+    left: 0;
+}
+
+.page-node-1077  div#rfRight {
+    right: 0;
+    transform: rotate( 180deg  );
+}
+
+
+/* CASOS DE EXITO */
+
+.page-node-1077 .field__item2 {
+    max-width: 960px;
+}
+
+.page-node-1077 .talks_exito_img {
+    margin-left: 152px;
+    margin-bottom: 20px;
+}
+
+
+.page-node-1077 .talks_exito_img img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+.page-node-1077 .lesserwidthTE2{
+    flex-basis: 50%;
+    margin-right: 210px;
+    margin-bottom: 20px;
+}
+
+
+.page-node-1077 #casos-view {
+    transition:unset;
+    float: left;
+    width: 1000%;
+    display: flex;
+}
+
+.page-node-1077 div#Talks-casos_Tit {
+    background-image: url(../images/talks_titler_back.png);
+    background-repeat: no-repeat;
+    font-family: "roboto-regular-webfont";
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 4px;
+    width: 100%;
+    height: 40px;
+    padding-left: 270px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 2px solid #3a3c42;
+}
+
+
+.page-node-1077 .talks_Casos .talks_contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0px 0px 0px;
+    background: #e3e0e1;
+    background: rgb(227,224,225);
+    background: -moz-linear-gradient(180deg, rgba(227,224,225,1) 38%, rgba(200,195,196,1) 100%);
+    background: -webkit-linear-gradient(
+180deg , rgba(227,224,225,1) 38%, rgba(200,195,196,1) 100%);
+    background: linear-gradient(
+180deg, rgba(227,224,225,1) 38%, rgba(200,195,196,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3e0e1",endColorstr="#c8c3c4",GradientType=1);
+}
+
+
+.page-node-1077 div#Talks-casos_Tit:before {
+    position: absolute;
+    background: linear-gradient(to right, #e3e0e1 172px, #3a3c42 50px);
+    height: 2px;
+    content: '';
+    bottom: 0;
+    margin-bottom: -2px;
+    right: 0;
+    left: 0;
+}
+
+.caso_ext_cont{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding:0 20px;
+    width:100%;
+}
+
+.caso_ext_col{
+    display: flex;
+    flex-direction: column;
+}
+
+.columnaFlex1_cde{
+    flex-basis: 30%;
+}
+
+.columnaFlex2_cde{
+    flex-basis: 30%;
+    justify-content: space-between;
+}
+
+.columnaFlex3_cde{
+    flex-basis: 40%;
+}
+
+.caso_ext_tit{
+    font-size:24px;
+    color:#de0046;
+    text-align:left;
+}
+
+.caso_ext_nombre{
+    color: #514e4e;
+    margin: 20px 0 4px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.caso_ext_puesto{
+    font-size:14px;
+    color:#2b2b2b;
+    text-align:left;
+}
+
+.caso_ext_excrept{
+    font-size:16px;
+    color:#5f5f5f;
+    text-align:left;
+    padding: 10px;
+}
+
+.caso_ext_leermas{
+    font-family: "roboto-light-webfont";
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #808080;
+    border: none;
+    border-radius: 8px;
+    padding: 2px 24px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 50px 30px 10px;
+    max-height: 35px;
+}
+
+/* FIN CASOS DE EXITO */
+
+
+/* BANNERS MOBILE */
+
+@media (max-width: 800px) {
+
+  .page-node-1077 .liv_banner_box-2020 {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    width: 100%;
+    max-width: 100vw;
+  }
+
+  .page-node-1077 .liv_banner_left-2020 {
+    max-height: unset;
+    max-width: 100vw;
+    width: 100%;
+    background-size: cover;
+    flex-basis: 100%;
+    background-color: #e2e0e0;
+    overflow: unset;
+  }
+
+  .page-node-1077 .liv_banner_right-2020 {
+    padding: 0;
+    height: auto;
+    width: 100Vw;
+    max-height: unset;
+    max-width: 100Vw;
+    background-color: #e2e0e0;
+    flex-basis: 100%;
+  }
+
+  .page-node-1077 .liv_banner_container-2020 {
+    height: calc(100vw * 0.75);
+    max-height: unset;
+  }
+
+  .page-node-1077 .liv_banner_right-2020 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .page-node-1077 .talks_Webinars .talks_container_video-strip .field__item {
+    display: block;
+    flex-basis: 100%;
+    text-align: center;
+    width: 100%;
+  }
+
+  .page-node-1077 .field--name-field-entrevistas-agregar-video- .field__item {
+    display: block;
+    flex-basis: 100%;
+    text-align: center;
+    width: 100%;
+  }
+
+  .page-node-1077 .field--name-field-entrevistas-agregar-video- .item {
+    float: left;
+    width: 100vw!important;
+    max-width: 100vw!important;
+  }
+  .page-node-1077 .ui-dialog {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      border-radius: 0;
+      z-index: 860!important;
+      max-width: 310px;
+      left: calc(50% - 155px);
+  }
+  .page-node-1077 .MultiCarousel-inner {
+    transition: 0.25s ease-out all;
+    float: none;
+    margin: 0px;
+  }
+
+  /* CASOS DE EXITO */
+  .page-node-1077 div#Talks-casos_Tit {
+    background-image: url(../images/talks_titler_back.png);
+    background-repeat: no-repeat;
+    background-position-x: -100px;
+    padding-left: 120px;
+    border-bottom: 2px solid #3a3c42;
+  }
+
+  .caso_ext_cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0 10px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+  .page-node-1077 div#Talks-casos_Tit:before {
+      background: linear-gradient(to right, #e3e0e1 72px, #3a3c42 50px);
+  }
+  /* FIN CASOS DE EXITO */
+
+  .page-node-1077 div#Talks-entrevista_Tit {
+    background-image: url(../images/talks_titler_back.png);
+    background-repeat: no-repeat;
+    background-position-x: -100px;
+    padding-left: 120px;
+    border-bottom: 2px solid #3a3c42;
+  }
+
+  .page-node-1077 div#Talks-entrevista_Tit:before {
+      background: linear-gradient(to right, #e3e0e1 72px, #3a3c42 50px);
+  }
+
+  .page-node-1077 .talks_left_column_podcast {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 90%;
+      padding: 0 10px;
+  }
+  .page-node-1077 .MCSportif {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%!important;
+  }
+  .page-node-1077 .talks_left_column_podcast_logo {
+    text-align: center;
+  }
+
+  .page-node-1077 .talks_left_column_podcast_visita {
+    margin-bottom: 40px;
+  }
+
+  .page-node-1077 .separator-arrow {
+
+    transform: rotate(90deg);
+    margin: 10px;
+  }
+
+  .page-node-1077 #anchorEntrevistas {
+      margin-bottom: 80px;
+      /* margin-bottom: 50px; */
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+  .page-node-1077 #anchorEntrevistas div#Talks-entrevista_Tit {
+    background-image: url(../images/talks_titler_back.png);
+    background-repeat: no-repeat;
+    padding-left: 120px;
+  }
+
+  .page-node-1077 .vertSepaTalks {
+    width: 2px;
+    border-right: 0;
+  }
+
+  .page-node-1077 #anchorEntrevistas .row-entrev-cont .talks_sub_contenedor.tc_left-30.talks_videoPlayer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0;
+    margin: auto;
+    width: 100%;
+    height:auto;
+  }
+  .page-node-1077 #anchorEntrevistas .row-entrev-cont .MultiCarousel .MultiCarousel-inner .item>div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    /* background: #f1f1f1; */
+    color: #666;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+  }
+
+  .page-node-1077 #anchorEntrevistas .talks_container_video-strip .field__item {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .page-node-1077 #anchorEntrevistas .talks_videoPlayer .talks_section_subtitle {
+    margin: 0 0 5px;
+    order: 2;
+    width: 100%;
+  }
+  .page-node-1077 #anchorEntrevistas .row-entrev-cont .MultiCarousel .MultiCarousel-inner {
+    transition: 0.25s ease-out all;
+    float: none;
+    height: 400px;
+  }
+
+  .page-node-1077 #anchorEntrevistas .row-entrev-cont {
+    display: flex;
+    position: relative;
+  }
+
+  .page-node-1077 #anchorAcerca .liv_banner_controls-2020 {
+    display: flex;
+    position: absolute;
+    left: 0%;
+    top: calc( 50% - 27px);
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px;
+    z-index: 4;
+  }
+
+  .page-node-1077 .redFader {
+    height: 100%;
+    width: 25px;
+    z-index: 2;
+  }
+
+  .page-node-1077 div#BannerContainer22 {
+
+    padding-left: 16px;
+  }
+
+  .page-node-1077 .liv_banner_box-2020b {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    max-width: 923px;
+    margin-right: 40px;
+    cursor: pointer;
+    width: 91vw;
+  }
+
+  .page-node-1077 div#BannerContainer22 {
+    height: 316px;
+    top: calc( 50% - 118px);
+  }
+
+}
+
+
+@media (max-width: 1300px){
+
+  .page-node-1077 #anchorEntrevistas .row-entrev-cont .MultiCarousel .MultiCarousel-inner .item {
+      float: none;
+      width: 100%;
+      max-width: unset;
+  }
+
+  .page-node-1077 #anchorEntrevistas .row-entrev-cont .MultiCarousel .MultiCarousel-inner .item>div {
+      width: 100%;
+      flex-basis: 100%;
+  }
+
+  .page-node-1077 #anchorEntrevistas .tc_left-30 {
+      flex-basis: 100%;
+      width: 100%;
+  }
+
+
+  .page-node-1077 #anchorEntrevistas .talks_videoPlayer .talks_section_subtitle {
+      margin: 0 0 5px;
+      order: 2;
+      width: 100%;
+  }
+
+  .page-node-1077 #anchorEntrevistas .talks_container_video-strip .talks_section_bajada {
+      max-width: 80%;
+  }
+
+  .page-node-1077 .talks_Webinars .row {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+}
+
+
+@media (max-width: 1025px) {
+  .page-node-1077 .talks_content_acerca_section-2020 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-node-1077 .talks_acerca_text_cont-2020 {
+    flex-basis: 100%;
+    padding: 0 40px 40px 0;
+    text-align: center;
+  }
+
+  .page-node-1077 .video-container {
+    width: calc(100% - 0px);
+    margin: auto;
+    padding: 0 0px 5px;
+    background-color: transparent !important;
+  }
+
+  .page-node-1077 .talks_section_title {
+    font-size: 23px;
+    text-align: left;
+    padding-bottom: 25px;
+  }
+
+  .page-node-1077 .talks_section_subtitle {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .page-node-1077 .talks_section_bajada {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .page-node-1077 textarea.form-control {
+    height: auto;
+    width: 100%;
+    flex-basis: 100% !important;
+  }
+
+  .page-node-1077 .form-group {
+    margin-bottom: 1rem;
+    flex-basis: 100%;
+  }
+
+  .page-node-1077 .contactoLivForm {
+    flex-basis: 80%;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .page-node-1077 .talks_title-form {
+    font-size: 26px;
+    color: #e42746;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+  }
+
+  .page-node-1077 .captcha {
+    flex-basis: 100%;
+    flex-direction: row;
+    display: inline-flex;
+  }
+
+  .page-node-1077 .button {
+    margin-bottom: 18px;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  /* section containers */
+
+  .page-node-1077 .talks_contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .page-node-1077 .tc_left-70 {
+    flex-basis: 100%;
+    padding-right: 0px;
+  }
+
+  .page-node-1077 .tc_right-30 {
+    flex-basis: 100%;
+    border-left: 0;
+    padding-left: 0px;
+    margin-top: 50px;
+  }
+
+  .page-node-1077 .liv_banner_container-2020 {
+    display: flex;
+    flex-direction: row;
+    max-height: 438px;
+    height: 330px;
+    /* 1024 */
+  }
+
+  .page-node-1077 .boldme {
+    margin-top: 20px;
+  }
+
+  .page-node-1077 #reproPodcastDestacado iframe {
+    height: 180px !important;
+  }
+
+  .page-node-1077 .liv_banner_box-2020b {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    max-width: 674px;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+
+  .page-node-1077 .liv_banner_box-2020b img{
+    width:100%;
+    height:auto;
+  }
+
+  .page-node-1077 .talks_section_podcast {
+    min-width: 100%;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+  .page-node-1077 #Talks-banner1 .liv_banner_left-2020 {
+      display: none;
+  }
+
+  .page-node-1077 .liv_banner_box-2020 {
+    height: auto;
+    max-height: 300px;
+  }
+
+  .page-node-1077 .liv_banner_box-2020b img {
+    width: calc( 100% - 40px);
+    height: auto;
+  }
+  .page-node-1077 div#BannerContainer22 {
+    height: 316px;
+    top: calc( 50% - 104px);
+    padding-left: 36px;
+  }
+
+  .page-node-1077 .liv_Acerca_container-2020 {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+  }
+  .page-node-1077 .liv_banner_right-2020 {
+    background-color: #ffffff;
+  }
+
+  .page-node-1077 #anchorEntrevistas .talks_contenedor {
+
+    width:100%;
+  }
+
+  .page-node-1077 #anchorEntrevistas .talks_rower {
+   
+     margin: 0;
+  }
+
+  /* CASOS DE EXITO */
+
+    div#videos-view {
+        padding-left: 11%;
+    }
+    .page-node-1077 .field__item2 {
+        max-width: 240px;
+        display: flex;
+    }
+
+    .item2 {
+        max-width: 240px;
+    }
+    .columnaFlex1_cde {
+        flex-basis: unset;
+        max-width: 240px;
+    }
+    .caso_ext_tit {
+        font-size: 24px;
+        color: #de0046;
+        text-align: left;
+        width: 240px;
+    }
+    .caso_ext_nombre {
+        color: #514e4e;
+        margin: 20px 0 4px;
+        font-size: 20px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        text-align: left;
+        width: 240px;
+    }
+    .caso_ext_puesto {
+        font-size: 14px;
+        color: #2b2b2b;
+        text-align: left;
+        width: 240px;
+    }
+    .columnaFlex2_cde {
+        flex-basis: unset;
+        justify-content: space-between;
+        width: 240px;
+    }
+    .caso_ext_excrept {
+        font-size: 16px;
+        color: #5f5f5f;
+        text-align: left;
+        padding: 10px 0;
+        width: 240px;
+    }
+    .caso_ext_leermas {
+        font-family: "roboto-light-webfont";
+        font-size: 20px;
+        color: #fff;
+        text-transform: uppercase;
+        background-color: #808080;
+        border: none;
+        border-radius: 8px;
+        padding: 2px;
+        text-align: center;
+        cursor: pointer;
+        margin: 10px 0px 30px 0px;
+        max-height: 35px;
+        width: 234px;
+    }
+    .caso_ext_cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0 0px;
+        width: 240px;
+        max-width: 240px;
+    }
+
+    .page-node-1077 .field__item2 {
+        max-width: 240px;
+        margin-right: 20px;
+    }
+    .caso_ext_ytRepro iframe {
+        width: 240px;
+    }
+    .page-node-1077 #MultiCarousel4 {
+        float: left;
+        overflow: hidden;
+        padding: 0px;
+        width: 100%;
+        position: relative;
+        max-width: 240px;
+    }
+
+    .page-node-1077 .talks_exito_img {
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+
+    .page-node-1077 .lesserwidthTE2 {
+        flex-basis: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+
+  /* FIN CASOS DE EXITO */
+}
+
+
+/* scrolling podcasts */
+
+.page-node-1077 .field.field--name-field-podcasts-agregar-podcast.field--type-entity-reference-revisions.field--label-hidden.field__items {
+    display: flex;
+    height: auto;
+    overflow-y: auto;
+    padding-bottom: 30px;
+    max-height: calc( 166px * 3 );
+    justify-content: flex-start;
+}
+
+.page-node-1077  ::-webkit-scrollbar {
+  width: 13px;
+  border-radius:5px;
+  margin-left:-20px;
+}
+
+/* Track */
+.page-node-1077 ::-webkit-scrollbar-track {
+  background: #e3e0e1;
+    border-radius:5px;
+    box-shadow: inset 2px 2px 4px #b3b3b3;
+}
+
+/* Handle */
+.page-node-1077 ::-webkit-scrollbar-thumb {
+    background: #e42746;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: inset -1px -2px 1px #b3b3b3;
+}
+
+/* Handle on hover */
+.page-node-1077 ::-webkit-scrollbar-thumb:hover {
+  background: #e42746;
+  cursor:pointer;
+}
+
+.talks_Webinars .talks_date_row {
+    display: none;
+}
+
+div#LSM1bn:hover {
+    color: #009da5;
+}
+
+div#LSM2bn:hover {
+    color: #009da5;
+}
+
+div#LSM5bn:hover {
+    color: #009da5;
+}
+
+div#LSM2i:hover {
+    color: #535353;
+}
+div#LSM3i:hover {
+    color: #535353;
+}
+div#LSM5i:hover {
+    color: #535353;
+}
+
+.page-node-1077 .navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  max-width: 1280px;
+  top: 0;
+}
