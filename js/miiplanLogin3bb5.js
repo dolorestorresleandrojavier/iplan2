@@ -401,196 +401,24 @@ jQuery(function ($) {
 					}
 				}
 
-				// if (myURL.indexOf("?error_validation") !== -1) {
-				// 	var myNewURL = myURL;
-				// 	var myLUraw0 = myNewURL.split("msg=");
-				// 	var myLUraw = myLUraw0[1].split("&us=");
-				// 	//var myLUraw = searchParams3.get('msg');
-				// 	var myLUraw1 = encodeURIComponent(myLUraw[0]);
-				// 	var myLUmsg = decodeURIComponent(myLUraw1);
-				// 	//var myLUmsg = decodeURIComponent(myLUraw);
-				// 	var myFinalMsg = myLUmsg.replace(/%20/g, " ");
-				// 	myFinalMsg = myFinalMsg.replace(/%A1/g, "¡");
-				// 	myFinalMsg = myFinalMsg.replace(/%3C/g, "<");
-				// 	myFinalMsg = myFinalMsg.replace(/%3E/g, ">");
-				// 	myFinalMsg = myFinalMsg.replace(/%27/g, "");
-				// 	if (myFinalMsg == "¡El usuario/CGP o contrase&ntilde;a no son v&aacute;lidos!") {
-				// 		myFinalMsg = "¡El DOCUMENTO / CGP o la contraseña no son válidos!<br>Por favor verificá los datos e ingresá nuevamente.";
-				// 		delete_cookie("userLogged");
-				// 		$(".modal-body").html("<h3>Error.</h3>" + myFinalMsg);
-				// 		$("#myModal").on("hide.bs.modal", function () {
-				// 			// put your default event here
-				// 			$(".modal-body").html("");
-				// 			if (window.history.replaceState) {
-				// 				window.history.replaceState("", "Login Zona de clientes | Portal", "/zona-de-clientes-2020");
-				// 			}
-				// 		});
-				// 	} else {
-				// 		if (myFinalMsg.indexOf("renovarla") !== -1) {
-				// 			$(".modal-body").html("<h3>Importante.</h3>La contraseña expiró. Para renovarla hacé click <span id='autochngPS'>Aquí</span>");
-				// 			$("#autochngPS").on("click", function () {
-				// 				autochangePass();
-				// 			});
-				// 		} else {
-				// 			//$('.modal-body').html("<h3>Atención</h3>"+myFinalMsg);
-				// 			if (myFinalMsg.indexOf("Abandonaste") != -1) {
-				// 				$(".modal-body").html("<h3>Gracias</h3>por visitar mi IPLAN");
-				// 				//console.log("clean URL");
-				// 				//location.href="/zona-de-clientes-2020";
-				// 				if (window.history.replaceState) {
-				// 					//prevents browser from storing history with each change:
-				// 					window.history.replaceState("", "Login Zona de clientes | Portal", "/zona-de-clientes-2020");
-				// 				}
-				// 			} else if (myFinalMsg.indexOf("Sesión Expirada") != -1) {
-				// 				$(".modal-body").html("<h3>Atención</h3>Sesión Expirada. Vuelva a ingresar por favor.");
-				// 			} else {
-				// 				if (myFinalMsg.indexOf("CUIT") != -1) {
-				// 					$(".modal-body").html("<h3>Error</h3>El acceso con número de documento solo está habilitado para clientes de IPLAN Liv. Intentalo utilizando tu CGP");
-				// 					//console.log("clean URL");
-				// 					//location.href="/zona-de-clientes-2020";
-				// 					if (window.history.replaceState) {
-				// 						//prevents browser from storing history with each change:
-				// 						window.history.replaceState("", "Login Zona de clientes | Portal", "/zona-de-clientes-2020");
-				// 					}
-				// 				} else if (myFinalMsg.indexOf("DNI") != -1) {
-				// 					$(".modal-body").html("<h3>Error</h3>Ese DNI no existe en nuestros registros. Intentalo utilizando tu CGP");
-				// 					//console.log("clean URL");
-				// 					//location.href="/zona-de-clientes-2020";
-				// 					if (window.history.replaceState) {
-				// 						//prevents browser from storing history with each change:
-				// 						window.history.replaceState("", "Login Zona de clientes | Portal", "/zona-de-clientes-2020");
-				// 					}
-				// 				} else {
-				// 					$(".modal-body").html("<h3>Error</h3>No pudo procesarse tu pedido, intentalo de nuevo.");
-				// 					//console.log("clean URL");
-				// 					//location.href="/zona-de-clientes-2020";
-				// 					if (window.history.replaceState) {
-				// 						//prevents browser from storing history with each change:
-				// 						window.history.replaceState("", "Login Zona de clientes | Portal", "/zona-de-clientes-2020");
-				// 					}
-				// 				}
-				// 			}
-				// 		}
-				// 	}
-
-				// 	$("#myModal").modal("show");
-				// }
-
-				// if (myURL.indexOf("?en_proceso") !== -1) {
-				// 	$(".modal-body").html(
-				// 		"<h3>¡Bienvenido a IPLAN!</h3>Los datos del usuario para la Zona de Clientes se encuentran en proceso de replicación, por favor intente nuevamente en 12 horas. Gracias.",
-				// 	);
-				// 	$("#myModal").modal("show");
-				// }
-
-				// if (myURL.indexOf("?inactivo") !== -1) {
-				// 	$(".modal-body").html("Tu servicio está pendiente de activación, por favor comunicate al 0800-345-1111. Gracias.");
-				// 	$("#myModal").modal("show");
-				// }
-
-				/*ZONA CLIENTES*/
-				// add bluehovers
 				$("#headerZonaBut").addClass("blueMeHover");
 				$("#headerContBut").addClass("blueMeHover");
 				$("#headerAyudaBut").addClass("blueMeHover");
 
-				// 		if (myURL.indexOf("Hogares/Zona-De-Clientes") != -1) {
-				// 			$(".hidModal").html(
-				// 				"<div class='hidmodalText'>El CGP (Código de Gestión Personal) es el usuario asignado para acceder a la Zona de Clientes: <ul class='ulClas'><li>El mismo es informado en el Mail de Bienvenida al ser dado de alta como cliente</li><li>También podrás encontrarlo en el margen superior derecho de la factura.<div class='hidmodalImg'><img src='/themes/iplan_b4/images/FC_IPLAN.jpg'></div></li><li> Por último, podrás solicitarlo llamando al 0800 345 1111 indicando su número de DNI.</li></div>",
-				// 			);
-				// 			$(".modal-content").prepend('<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>');
-				// 		} else {
-				// 			$(".hidModal").html(
-				// 				"<div class='hidmodalText'>El CGP (Código de Gestión Personal) es el usuario asignado para acceder a la Zona de Clientes: <ul class='ulClas'><li>El mismo es informado en el Mail de Bienvenida al ser dado de alta como cliente</li><li>También podrá encontrarlo en el margen superior derecho de la factura.<div class='hidmodalImg'><img src='/themes/iplan_b4/images/FC_IPLAN.jpg'></div></li><li> Por último, podrá solicitarlo llamando al 0800 345 0000 indicando su número de CUIT/CUIL.</li></div>",
-				// 			);
-				// 			$(".modal-content").prepend('<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>');
-				// 		}
-
-				// 		// rutine to change motivo in forms
-				// 		if (myURL.indexOf("?subject=") !== -1) {
-				// 			var nothashonly = myURL.split("=");
-				// 			if (nothashonly[1]) {
-				// 				if (nothashonly[1] == "Consulta") {
-				// 					//console.log("changing subject:"+nothashonly[1])
-				// 					$('select[name="motivo"]').find('option[value="Consulta de Clientes"]').attr("selected", true);
-				// 				}
-
-				// 				if (nothashonly[1] == "Baja") {
-				// 					//console.log("changing subject:"+nothashonly[1])
-				// 					$('select[name="motivo"]').find('option[value="Baja"]').attr("selected", true);
-				// 				}
-				// 			}
-				// 		}
-
-				// 		if (myURL.indexOf("Liv/Zona-de-clientes") !== -1) {
-				// 			//console.log("error de log");
-				// 			$(".hidModal").html(
-				// 				"<div class='hidmodalText'>El CGP (Código de Gestión Personal) es el usuario asignado para acceder a la Zona de Clientes: <ul class='ulClas'><li>El mismo es informado en el Mail de Bienvenida al ser dado de alta como cliente</li><li>También podrás encontrarlo en el margen superior derecho de la factura.<div class='hidmodalImg'><img src='/themes/iplan_b4/images/FC_IPLAN.jpg'></div></li><li> Por último, podrás solicitarlo llamando al 0800 345 1111 indicando su número de DNI.</li></div>",
-				// 			);
-				// 			$(".modal-content").prepend('<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>');
-				// 		} else {
-				// 			$(".hidModal").html(
-				// 				"<div class='hidmodalText'>El CGP (Código de Gestión Personal) es el usuario asignado para acceder a la Zona de Clientes: <ul class='ulClas'><li>El mismo es informado en el Mail de Bienvenida al ser dado de alta como cliente</li><li>También podrá encontrarlo en el margen superior derecho de la factura.<div class='hidmodalImg'><img src='/themes/iplan_b4/images/FC_IPLAN.jpg'></div></li><li> Por último, podrá solicitarlo llamando al 0800 345 0000 indicando su número de CUIT/CUIL.</li></div>",
-				// 			);
-				// 			$(".modal-content").prepend('<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>');
-				// 		}
-
-				// 		if (myURL.indexOf("?error_validation") !== -1) {
-				// 			var myNewURL = myURL;
-				// 			//console.log("myURL="+myNewURL) ;
-				// 			var myLUraw = myNewURL.split("msg=");
-				// 			var myLUraw1 = encodeURIComponent(myLUraw[1]);
-				// 			var myLUmsg = decodeURIComponent(myLUraw1);
-				// 			var myFinalMsg = myLUmsg.replace(/%20/g, " ");
-				// 			myFinalMsg = myFinalMsg.replace(/%A1/g, "¡");
-				// 			myFinalMsg = myFinalMsg.replace(/%3C/g, "<");
-				// 			myFinalMsg = myFinalMsg.replace(/%3E/g, ">");
-				// 			myFinalMsg = myFinalMsg.replace(/%27/g, "");
-				// 			//console.log("myFinal:"+myFinalMsg);
-				// 			/*var myLUraw = myNewURL.split("msg=");
-				//   var myFinalMsg = decodeURIComponent(myLUraw[1]);*/
-				// 			if (myFinalMsg == "¡El usuario/CGP o contrase&ntilde;a no son v&aacute;lidos!") {
-				// 				myFinalMsg = "¡El usuario/CGP o la contraseña no son válidos!<br>Por favor verificá los datos e ingresá nuevamente.";
-				// 			} else {
-				// 			}
-				// 			if (myFinalMsg.indexOf("renovarla") !== -1) {
-				// 				$(".modal-body").html("<h3>Importante.</h3>" + myFinalMsg);
-				// 			} else {
-				// 				$(".modal-body").html("<h3>Atención</h3>" + myFinalMsg);
-				// 			}
-
-				// 			$("#myModal").modal("show");
-				// 		}
-
-				// 		if (myURL.indexOf("?error_liv") !== -1) {
-				// 			$(".modal-body").html(
-				// 				"<h2>¡Bienvenido a IPLAN Liv!</h2>Para comunicarte con nosotros, realizar gestiones administrativas y técnicas llamanos al 0800-345-1111. O Ingresa <a href='https://www.iplan.com.ar/Hogares/Contacto?subject=Consulta'>aquí</a>",
-				// 			);
-				// 			$("#myModal").modal("show");
-				// 		}
-
-				// 		if (myURL.indexOf("?en_proceso") !== -1) {
-				// 			$(".modal-body").html(
-				// 				"<h3>¡Bienvenido a IPLAN Liv!</h3>Los datos del usuario para la Zona de Clientes se encuentran en proceso de replicación, por favor intente nuevamente en 12 horas. Gracias.",
-				// 			);
-				// 			$("#myModal").modal("show");
-				// 		}
-
-				// 		if (myURL.indexOf("?inactivo") !== -1) {
-				// 			$(".modal-body").html("Tu servicio está pendiente de activación, por favor comunicate al 0800-345-1111. Gracias.");
-				// 			$("#myModal").modal("show");
-				// 		}
-
-				// 		if (myURL.indexOf("?centralVSetup") !== -1) {
-				// 			$(".zonacli").on("click", function (e) {
-				// 				//console.log("console setup");
-				// 				e.preventDefault();
-				// 				$("form").attr("action", "/login_unificado/redirect.php?centralVSetup=true").submit();
-				// 			});
-				// 		}
 
 				break;
 
 		}
 	}
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const dniInput = document.getElementById("edit-usuario");
+  const passwordInput = document.getElementById("edit-password");
+
+  if (dniInput && passwordInput) {
+    dniInput.addEventListener("input", function () {
+      passwordInput.disabled = dniInput.value.trim().length === 0;
+    });
+  }
 });
