@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mi iplan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+</head>
+<body class="zonaDeClientes2020 gradient_hogar">
+  <div class="login-lv">
+    <div class="container-login-v2">
+      <h2 class="v2_text_20_regular v2_color_grey-dark">Bienvenido a</h2>
+      <img src="logo.png" alt="logo IPLAN" />
+
+      <form id="formL1">
+        <label class="newZDCLabel v2_text_14_regular v2_color_blue">DNI / CGP:</label>
+        <input id="edit-usuario" type="text" required />
+        <div class="zona-clients_textfield-help v2_text_12_regular v2_color_grey-dark" id="CGP-ref">
+          <span style="cursor:pointer">No lo sé</span>
+        </div>
+        <div class="hidModal" id="myZDCMod1">
+          Tu código CGP está en tu mail de bienvenida o factura.
+        </div>
+
+        <label class="newZDCLabel v2_text_14_regular v2_color_blue">Contraseña</label>
+        <input id="edit-password" type="password" disabled required />
+        <div class="zona-clients_textfield-help v2_text_12_regular v2_color_grey-dark" id="Pas-ref">
+          <span style="cursor:pointer">olvidé mi contraseña</span>
+        </div>
+        <div class="hidModal" id="myZDCMod2">
+          Para recuperarla, completá tu CGP y seguí el enlace del mail.
+        </div>
+
+        <button type="submit" id="btnIngresar" class="acceder-login-v2 v2_button_magenta_white">ACCEDER</button>
+        <div id="loaderLogin" style="display:none;">
+          <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+          <h2 class="title-hg v2_text_24_regular v2_text_degrade-pink">Accediendo ...</h2>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
