@@ -422,3 +422,35 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const cgpHelpBtn = document.querySelector("#CGP-ref span");
+  const passwordHelpBtn = document.querySelector("#Pas-ref span");
+  const cgpHelpBox = document.getElementById("myZDCMod1");
+  const passwordHelpBox = document.getElementById("myZDCMod2");
+
+  // Asegura estilo inicial oculto
+  if (cgpHelpBox) cgpHelpBox.style.display = "none";
+  if (passwordHelpBox) passwordHelpBox.style.display = "none";
+
+  // Función de toggle
+  function toggleBox(box) {
+    if (!box) return;
+    box.style.display = box.style.display === "block" ? "none" : "block";
+  }
+
+  // Evento "No lo sé"
+  if (cgpHelpBtn && cgpHelpBox) {
+    cgpHelpBtn.addEventListener("click", function () {
+      toggleBox(cgpHelpBox);
+      if (passwordHelpBox) passwordHelpBox.style.display = "none";
+    });
+  }
+
+  // Evento "Olvidé mi contraseña"
+  if (passwordHelpBtn && passwordHelpBox) {
+    passwordHelpBtn.addEventListener("click", function () {
+      toggleBox(passwordHelpBox);
+      if (cgpHelpBox) cgpHelpBox.style.display = "none";
+    });
+  }
+});
