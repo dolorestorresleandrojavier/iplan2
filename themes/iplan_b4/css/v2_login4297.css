@@ -221,13 +221,14 @@ select.zona-clients_campos-acceder {
   display: flex;
   gap: 15px;
   align-items: center;
+  justify-content: center;
 }
 
 .payment-icons img {
   height: 40px;
   object-fit: contain;
-  max-height: 15px;
-  max-width: 15px;
+  max-height: 30px;
+  max-width: 30px;
   
 }
     
