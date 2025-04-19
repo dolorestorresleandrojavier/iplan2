@@ -14,3 +14,13 @@ textarea::placeholder {
   margin-bottom: 10px;
   text-align: center;
 }
+.icono-texto {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* espacio entre ícono y texto */
+}
+
+.candado-fa {
+  font-size: 14px;
+  color: #666;
+}
