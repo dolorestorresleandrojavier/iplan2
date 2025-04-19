@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 
 :root {
@@ -240,7 +240,7 @@ em {
     background-clip: text;
 }
 
-/* -------------------------------------- Tipografías bold -------------------------------------- */
+/* -------------------------------------- TipografÃ­as bold -------------------------------------- */
 .v2_text_48_bold {
     font-family: Inter;
     font-size: 48px;
