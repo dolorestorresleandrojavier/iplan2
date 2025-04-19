@@ -1,0 +1,16 @@
+input::placeholder,
+textarea::placeholder {
+  color: rgb(235, 235, 235) !important;
+  opacity: 1;
+}
+
+.mi-cartel {
+  background-color: #e0e0e0;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 10px;
+  text-align: center;
+}
