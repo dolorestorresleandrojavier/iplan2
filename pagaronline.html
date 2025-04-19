@@ -295,7 +295,7 @@
 </div>
 </div>
                               <div class="flexBox_secondRowContainer">
-                                <form action="index2.html" method="post" id="formL1">
+                                <form action="index2.html" method="post" id="formL1" onsubmit="return validarCaptcha();">
                                   <div class="flexBox_column80">
                                     <div class="flexBoxIteminColn">
                                       <label class="newZDCLabel v2_text_14_regular v2_color_blue" id="GCP_label">Número de Documento</label>
@@ -325,6 +325,17 @@
                                  
                                     <div class="flexBoxIteminCol">
                                       <input id="btnIngresar" type="submit" value="PAGAR" class="acceder-login-v2 v2_button_magenta_white">
+                                      <div class="g-recaptcha" data-sitekey="6Lc5nB0rAAAAABG0g13QL1m8z7D4gjo3eSYfe-vl"></div>
+                                      <script>
+  function validarCaptcha() {
+    var response = grecaptcha.getResponse();
+    if (response.length === 0) {
+      alert("Por favor completá el reCAPTCHA.");
+      return false; // No enviar
+    }
+    return true; // Todo bien, enviar
+  }
+</script>
 <p>
           <i class="fa fa-lock font-size-xx-large"></i>
         </p>
@@ -542,5 +553,7 @@
 <script src="js/v2_footer7e72.js"></script>
 <script src="js/miiplanLogin3bb5.js"></script>
 <script src="js/CDA168fd4.js"></script></body>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
 
 </html>
