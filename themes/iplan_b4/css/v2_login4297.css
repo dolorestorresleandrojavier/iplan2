@@ -199,10 +199,7 @@ select.zona-clients_campos-acceder {
    align-items: center;
    margin-top: 20px;
 }
-::placeholder {
-  color: rgba(255,255,255,0.3); /* blanco con transparencia */
-  opacity: 1; /* Para algunos navegadores que requieren esto */
-}
+
 .zonaDeClientes2020 .hidModal {
     display: none;
     padding-left: 24px;
