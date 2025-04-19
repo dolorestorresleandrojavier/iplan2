@@ -880,7 +880,7 @@ h1.negrit {
     max-width: 3em;
   }
   ::placeholder {
-  color: rgba(255,255,255,0.3); /* blanco con transparencia */
+  color: rgba(234, 234, 234); /* blanco con transparencia */
   opacity: 1; /* Para algunos navegadores que requieren esto */
 }
 }
