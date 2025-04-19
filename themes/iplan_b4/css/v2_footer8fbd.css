@@ -51,8 +51,8 @@
 }
 
 .v2__footer__top-1__redes img {
-    /* width: 34px;
-    height: 24px;  */
+   height: 1.5em;
+    max-width: 3em;
 }
 
 
