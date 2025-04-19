@@ -222,14 +222,18 @@ select.zona-clients_campos-acceder {
   gap: 15px;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap; /* por si no entran en una fila */
 }
 
 .payment-icons img {
-  height: 40px;
+  height: 30px;
   object-fit: contain;
-  max-height: 30px;
-  max-width: 30px;
-  
+  max-width: 50px; /* podés ajustar si querés íconos más angostos */
 }
+
+@media (max-width: 768px) {
+  .payment-icons img {
+    height: 18px;
+  }
     
 }
