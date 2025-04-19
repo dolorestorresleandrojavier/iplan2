@@ -217,5 +217,15 @@ select.zona-clients_campos-acceder {
         max-width: 453px;
         margin-inline: auto;
     }
+    .payment-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.payment-icons img {
+  height: 40px;
+  object-fit: contain;
+}
     
 }
