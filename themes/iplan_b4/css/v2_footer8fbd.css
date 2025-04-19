@@ -45,6 +45,7 @@
     display: flex;
     gap: 12px;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .v2__footer__top-1__redes a {
