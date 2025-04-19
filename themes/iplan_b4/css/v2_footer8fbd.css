@@ -44,6 +44,7 @@
 .v2__footer__top-1__redes {
     display: flex;
     gap: 12px;
+    justify-content: center;
 }
 
 .v2__footer__top-1__redes a {
