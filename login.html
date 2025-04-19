@@ -287,7 +287,7 @@
                               <div class="sub-biz-lv" style="display:none">Zona de Clientes</div>
 
                               <div class="flexBox_secondRowContainer">
-                                <form action="index2.html" method="post" id="formL1">
+                                <form id="formL1">
                                   <div class="flexBox_column80">
                                     <div class="flexBoxIteminColn">
                                       <label class="newZDCLabel v2_text_14_regular v2_color_blue" id="GCP_label">DNI / CGP / Código de barras:</label>
@@ -310,7 +310,13 @@
                                    
                                     <div class="flexBoxIteminCol">
                                       <input id="btnIngresar" type="submit" value="CONTINUAR" class="acceder-login-v2 v2_button_magenta_white">
-
+<script>
+  document.getElementById('formL1').addEventListener('submit', function(e) {
+    e.preventDefault(); // evita el POST real
+    // Podés validar o guardar datos en localStorage si querés
+    window.location.href = "login.html";
+  });
+</script>
 <div id="loaderLogin" style="display:none;">
   <div class="lds-ring">
     <div></div><div></div><div></div><div></div>
