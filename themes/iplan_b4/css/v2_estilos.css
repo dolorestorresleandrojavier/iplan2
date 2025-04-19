@@ -879,8 +879,18 @@ h1.negrit {
     height: 1.5em;
     max-width: 3em;
   }
-  ::placeholder {
-  color: rgba(234, 234, 234); /* blanco con transparencia */
-  opacity: 1; /* Para algunos navegadores que requieren esto */
+ /* Placeholder claro para todos los navegadores */
+input::placeholder,
+textarea::placeholder {
+  color: rgb(210, 210, 210) !important;
+  opacity: 1; /* Firefox necesita esto */
+}
+
+/* Para compatibilidad con navegadores antiguos */
+input:-ms-input-placeholder {
+  color: rgb(210, 210, 210) !important;
+}
+input::-ms-input-placeholder {
+  color: rgb(210, 210, 210) !important;
 }
 }
