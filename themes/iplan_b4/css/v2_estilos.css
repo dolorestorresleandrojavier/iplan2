@@ -512,6 +512,19 @@ em {
     line-height: normal;
     text-transform: uppercase;
 }
+select.zona-clients_campos-acceder {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #333;
+  border-radius: 4px;
+  width: 100%;
+}
 
 .v2_button_blueDedrade_pink:hover {
     background: var(--v2_grey-dark);

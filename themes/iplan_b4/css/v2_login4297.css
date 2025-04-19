@@ -143,6 +143,19 @@ background: linear-gradient(315deg, #08EDE7, #398BFF);
     flex-direction: column;
     gap: 24px;
 }
+select.zona-clients_campos-acceder {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #333;
+  border-radius: 4px;
+  width: 100%;
+}
 
 .help-lv{
     display: flex;
