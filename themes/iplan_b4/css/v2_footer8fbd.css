@@ -1,0 +1,262 @@
+.v2__logos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--v2_grey-light);
+    gap: 72px;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 75px 48px 75px;
+}
+
+.v2__logos div {
+    margin: 0 auto;
+}
+
+.v2__footer {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0px 32px 0px;
+    align-items: center;
+}
+
+.v2__footer__top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 32px;
+    max-width: 1362px;
+    gap: 16px;
+}
+
+.v2__footer__top-1__logo img {
+    width: 141px;
+}
+
+.v2__footer__top-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.v2__footer__top-1__redes {
+    display: flex;
+    gap: 12px;
+}
+
+.v2__footer__top-1__redes a {
+    cursor: pointer;
+}
+
+.v2__footer__top-1__redes img {
+    /* width: 34px;
+    height: 24px;  */
+}
+
+
+.v2__footer__top-2 {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.v2__footer__top-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 235px;
+    margin: 0 auto;
+}
+
+.v2__footer .v2_button_white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 25px;
+    background-color: var(--v2_white);
+    border: 0px;
+    color: var(--v2_grey-dark);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.v2__footer .v2_button_white:hover {
+    color: var(--v2_grey-dark);
+}
+
+footer .separadorH {
+    width: 100%;
+    height: 1px;
+    background-color: var(--v2_white);
+    max-width: 1400px;
+    margin: 32px 0;
+}
+
+.v2__footer__mid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1362px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    text-align: center;
+}
+
+.v2__footer_mid__col-1 {
+    max-width: 500px;
+    text-align: center;
+}
+
+.v2__footer_mid__col-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 500px;
+    margin-left: 0px;
+}
+
+.v2__footer_mid__col-3 {
+    display: flex;
+    gap: 30px;
+    max-width: 500px;
+}
+
+.v2__footer_bottom {
+    margin-top: 24px;
+    text-align: center;
+    width: 300px;
+}
+
+/* bootstrap */
+@media (min-width: 576px) {}
+
+/* bootstrap */
+@media (min-width: 768px) {}
+
+@media (min-width: 791px) {}
+
+@media (min-width: 900px) {}
+
+/* bootstrap */
+@media (min-width: 992px) {
+    .v2__logos {
+        display: flex;
+    }
+
+    .v2__logos div {
+        margin: 0;
+    }
+
+    .v2__footer {
+        padding-top: 48px;
+        padding-bottom: 32px;
+    }
+
+    .v2__footer__top {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .v2__footer__top-1 {
+        align-items: flex-start;
+        width: 410px;
+    }
+
+    .v2__footer__top-3 {
+        margin: 0;
+    }
+
+
+
+    .v2__footer_mid__col-2 {
+        /* margin-left: -72px; */
+    }
+}
+
+/* bootstrap */
+@media (min-width: 1200px) {}
+
+
+@media (min-width: 1365px) {
+    .v2__footer__mid {
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0px;
+        flex-direction: row;
+        padding: 0 16px;
+    }
+
+    .v2__footer__top {
+        padding: 0 16px;
+    }
+
+    .v2__footer_mid__col-1 {
+
+        text-align: start;
+        width: 410px;
+    }
+
+    .v2__footer_mid__col-2 {
+        text-align: start;
+    }
+}
+
+/* bootstrap */
+@media (min-width: 1400px) {}
+
+@media (min-width: 1440px) {}
+
+footer a {
+    outline: none;
+    text-decoration: none;
+}
+
+footer button {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+footer .v2__footer__top-2__col-1 a:hover,
+footer .v2__footer__top-2__col-2 a:hover {
+    outline: none;
+    text-decoration: underline !important;
+    color: #FFF !important;
+}
+
+footer .v2__footer_mid__col-1 a:hover,
+footer .v2__footer_mid__col-1 button:hover {
+    outline: none;
+    text-decoration: underline !important;
+    color: #FFF !important;
+}
+
+/* OCULTA EL LABEL */
+#block-footerv2 h2 {
+    display: none;
+}
+
+#block-v22025footer h2 {
+    display: none;
+}
+
+#block-footerv2 h2 {
+    display: none;
+}
+
+.site-footer {
+    display: none !important;
+}
