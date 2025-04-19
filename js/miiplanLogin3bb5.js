@@ -432,9 +432,9 @@ document.addEventListener("DOMContentLoaded", function () {
   if (passwordHelpBox) passwordHelpBox.style.display = "none";
 
   function toggleBox(box) {
-  if (!box) return;
-  box.classList.toggle("show");
-}
+    if (!box) return;
+    box.style.display = box.style.display === "block" ? "none" : "block";
+  }
 
   if (cgpHelpBtn && cgpHelpBox) {
     cgpHelpBtn.addEventListener("click", function () {
