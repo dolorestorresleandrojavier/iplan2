@@ -1,6 +1,6 @@
 input::placeholder,
 textarea::placeholder {
-  color: rgb(235, 235, 235) !important;
+  color: rgb(220, 220, 220) !important;
   opacity: 1;
 }
 
