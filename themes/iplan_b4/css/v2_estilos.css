@@ -451,10 +451,10 @@ em {
 }
 
 .v2_text_12_regular {
+  font-family: 'Inter', sans-serif;
   font-size: 12px;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
-  line-height: normal;
+  margin: 0;
 }
 
 /* ------------------------------------------- hovers ------------------------------------------- */
