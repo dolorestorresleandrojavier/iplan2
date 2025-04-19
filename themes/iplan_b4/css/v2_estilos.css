@@ -846,10 +846,6 @@ h1.negrit {
         margin-top: 134px;
         display: none !important;
     }
-    .payment-icons-wrapper {
-  max-width: 400px;
-  margin: 0 auto;
-}
 .payment-icons {
   display: flex;
   gap: 1em;
