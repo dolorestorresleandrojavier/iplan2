@@ -239,4 +239,24 @@ select.zona-clients_campos-acceder {
     height: 1.5em;
     max-width: 3em;
   }
+  .zona-clients_campos-acceder::placeholder {
+  color: rgb(190, 190, 190); /* un poco más oscuro que #ebebeb para mayor visibilidad */
+  opacity: 1;
+}
+
+.zona-clients_campos-acceder::-webkit-input-placeholder {
+  color: rgb(190, 190, 190);
+}
+
+.zona-clients_campos-acceder:-moz-placeholder {
+  color: rgb(190, 190, 190);
+}
+
+.zona-clients_campos-acceder::-moz-placeholder {
+  color: rgb(190, 190, 190);
+}
+
+.zona-clients_campos-acceder:-ms-input-placeholder {
+  color: rgb(190, 190, 190);
+}
 }
