@@ -240,23 +240,23 @@ select.zona-clients_campos-acceder {
     max-width: 3em;
   }
   .zona-clients_campos-acceder::placeholder {
-  color: rgb(190, 190, 190); /* un poco más oscuro que #ebebeb para mayor visibilidad */
+  color: rgb(235, 235, 235); /* un poco más oscuro que #ebebeb para mayor visibilidad */
   opacity: 1;
 }
 
 .zona-clients_campos-acceder::-webkit-input-placeholder {
-  color: rgb(190, 190, 190);
+  color: rgb(235, 235, 235);
 }
 
 .zona-clients_campos-acceder:-moz-placeholder {
-  color: rgb(190, 190, 190);
+  color: rgb(235, 235, 235);
 }
 
 .zona-clients_campos-acceder::-moz-placeholder {
-  color: rgb(190, 190, 190);
+  color: rgb(235, 235, 235);
 }
 
 .zona-clients_campos-acceder:-ms-input-placeholder {
-  color: rgb(190, 190, 190);
+  color: rgb(235, 235, 235);
 }
 }
