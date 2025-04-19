@@ -450,3 +450,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+document.addEventListener("DOMContentLoaded", function() {
+  const form = document.getElementById("formL1");
+  const btnIngresar = document.getElementById("btnIngresar");
+  const loaderLogin = document.getElementById("loaderLogin");
+
+  if (form && btnIngresar && loaderLogin) {
+    form.addEventListener("submit", function(e) {
+      // Mostrar el loader y ocultar el botón
+      btnIngresar.style.display = "none";
+      loaderLogin.style.display = "flex";
+    });
+  }
+});
